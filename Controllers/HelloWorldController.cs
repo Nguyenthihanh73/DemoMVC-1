@@ -21,5 +21,8 @@ namespace MvcMovie.Controllers
             ViewData["NumTimes"] = numTimes;
             return View();
         }
+        public IActionResult Hello(){
+            return View();
+        }
     }
 }
